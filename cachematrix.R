@@ -27,9 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 	list(set = set, get = get, 
 	setinverse = setinverse, 
 	getinverse = getinverse)
-
 }
-
 
 ## cacheSolve function first get the value of inverse from makeCacheMatrix function.
 ## If the inverse is not null, just get the value from the cache. 
